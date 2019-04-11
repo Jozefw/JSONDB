@@ -1,0 +1,113 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "first": "Jericho",
+      "last": "Myself",
+      "comapany": "monsanto"
+    },
+    {
+      "id": 2
+    },
+    {
+      "first": "textFirst",
+      "last": "textLast",
+      "company": "My company",
+      "id": 3
+    },
+    {
+      "first": "textFirst",
+      "last": "textLast",
+      "company": "My company",
+      "id": 4
+    },
+    {
+      "first": "textFirst",
+      "last": "textLast",
+      "company": "My company",
+      "id": 5
+    },
+    {
+      "first": "kitty",
+      "last": "thingy",
+      "company": "your",
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    },
+    {
+      "first": "piggy",
+      "last": "wiggly",
+      "company": "poohbear",
+      "id": 10
+    },
+    {
+      "first": "textFirst",
+      "last": "textLast",
+      "company": "My company",
+      "id": 11
+    },
+    {
+      "first": "textFirst",
+      "last": "textLast",
+      "company": "My company",
+      "id": 12
+    },
+    {
+      "sound": "oink",
+      "slap": "tickle",
+      "noise": "smell",
+      "id": 13
+    },
+    {
+      "sound": "oink",
+      "slap": "tickle",
+      "noise": "smell",
+      "id": 14
+    },
+    {
+      "sound": "oink",
+      "slap": "tickle",
+      "noise": "smell",
+      "id": 15
+    },
+    {
+      "sound": "oink",
+      "slap": "tickle",
+      "noise": "smell",
+      "id": 16
+    },
+    {
+      "first": "Jericho",
+      "last": "Kitty",
+      "comapny": "Pooh",
+      "id": 17
+    },
+    {
+      "first": "pickles",
+      "last": "wickles",
+      "comapny": "titi",
+      "id": 18
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "test": {
+    "whatevs": "Hello worlds"
+  }
+}
