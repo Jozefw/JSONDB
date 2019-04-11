@@ -125,11 +125,27 @@
                     for(var key in myObj[0]){
                         output.innerHTML += '<b>'+key+'</b>: '+myObj[0][key]+'<br>';
                     }
+                loadComments();
                 }
+
         };
             xhr.open('GET','http://localhost:3000/posts?id='+currentID,true);
             xhr.send();
        }
+       function loadComments(){
+        
+        output.innerHTML = '<p>Comments :</p>';
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function(){
+                if(xhr.readyState===4){
+                    var myObj = JSON.parse(xhr.response);
+                    console.log(myObj);
+                }
+            xhr.open('GET','http://localhost:3000/comments?postId='+currentID,true);
+            xhr.send();
+        };
+       };
+
         function getRequest(url){
             var xhr = new XMLHttpRequest();
             xhr.onreadystatechange =function(){
